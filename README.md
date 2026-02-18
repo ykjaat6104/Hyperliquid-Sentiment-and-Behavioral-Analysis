@@ -53,11 +53,9 @@ Hyperliquid Analysis/
 ├── requirements.txt
 ├── .venv/
 │   └── (virtual environment files)
-├── input/
-│   ├── fear_greed_index.csv
-│   └── historical_data.csv
-└── outputs/
-    └── (generated charts, reports, models)
+└── input/
+    ├── fear_greed_index.csv
+    └── historical_data.csv
 ```
 
 ## ✨ Features
@@ -69,19 +67,18 @@ Hyperliquid Analysis/
 - **Strategy Recommendations**: Evidence-based trading strategies tailored to sentiment conditions
 - **Statistical Validation**: T-tests, correlations, and significance testing for robust analysis
 
-## � Dashboard Screenshots
+## � Project Outputs
 
-To include actual screenshots, run the Streamlit app (`streamlit run app.py`), capture images of each page, save them as PNG files in a `screenshots/` directory, and update the paths below.
 
-- **Overview Page**: Displays sentiment distribution and key metrics
-  ![Dashboard Overview](screenshots/overview.png)
+- **Sentiment Performance**: 
+  <img width="4153" height="2353" alt="sentiment_performance" src="https://github.com/user-attachments/assets/01f97b19-8306-4dae-bcea-e1ed6e1a24e8" />
 
-- **Performance Page**: Shows PnL and win rate comparisons by sentiment
-  ![Performance Analytics](screenshots/performance.png)
+- **PCA Projection & Traders Archetype**:
+  <img width="2100" height="900" alt="trader_archetypes" src="https://github.com/user-attachments/assets/bacefcb4-71b8-40e6-9ef3-be52d136b2c7" />
 
-- **Strategies Page**: Provides sentiment-based trading recommendations
-  ![Strategy Center](screenshots/strategies.png)
-
+- **Elbow Method Results**:
+  <img width="1200" height="750" alt="elbow_method" src="https://github.com/user-attachments/assets/cddf1b6f-ee76-4427-bba1-90a27a4fe612" />
+ 
 ## �🚀 Quick Start
 
 ### Prerequisites
